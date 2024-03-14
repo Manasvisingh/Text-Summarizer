@@ -1,4 +1,8 @@
-from pathlib import Path
+artifacts_root: artifacts
 
-CONFIG_FILE_PATH = Path("config/config.yaml")
-PARAMS_FILE_PATH = Path("params.yaml")
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Manasvisingh/Text-Summarizer/raw/main/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
