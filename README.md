@@ -18,7 +18,7 @@
 ### STEP 1- Clone the repository
 
 ```bash
-https://github.com/Manasvisingh/Kidney-Disease-Classification
+https://github.com/Manasvisingh/Text-Summarizer.git
 ```
 ### STEP 2- Create a conda environment 
 
